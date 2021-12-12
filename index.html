@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: -8px -8px;
+        
+    }
+    .header{
+        display:flex;
+        width: 1520px;
+        justify-content: end;
+        background-color: rgb(0, 145, 202);
+    }
+    .nav_bar{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 225px;
+    }
+    .container{
+        height: 200px;
+        background: url("https://cdnmedia.endeavorsuite.com/images/ThumbGenerator/Thumb.aspx?img=//cdnmedia.endeavorsuite.com/images/organizationsstg/383752f0-274f-4a7e-ae38-1dc2b34a3664/SEO/yamadirtbike55k.jpg&v=1611772668467&mw=400&mh=303&f=1");
+        background-size: cover;
+        display:flex;
+        justify-content: space-around;
+    }
+    .container2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .left,.right{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        display:flex;
+        flex-direction: column;
+        margin:50px 200px;
+        width: 200px;
+        height: 100px;
+        background-color: rgb(4, 190, 214);
+        justify-content: space-between;
+        text-align: center;
+    }
+    .text-container{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(90, 90, 255);
+
+    }
+    .text{
+        color:white;
+        width:800px;
+        margin: 50px;
+    }
+
+    .last-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box2{
+        display:flex;
+        flex-direction: column;
+        margin:50px 200px;
+        width: 400px;
+        height: 200px;
+        background-color: rgb(4, 190, 214);
+        justify-content: space-between;
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+        background-color: rgb(4, 190, 214);
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="nav_bar">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>    
+        </div>
+
+        <div class="container">
+            <h2 style="color:white; margin:55px;">HOME SPLASH</h2>
+        </div>
+        <div class="container2">
+            <div class="left">
+            <div class="box" id="box-1">
+                <p class="top-bar" style="font-size:20px;margin:-8px 0px;color:rgb(76, 76, 238);background-color: rgb(76, 76, 238);">.</p>
+                <p class="bottom-bar" style="color:white;">SubTitle</p>
+            </div>
+            
+            <div class="box" id="box-2">
+                <p class="top-bar" style="font-size:20px;margin:-8px 0px;color:rgb(76, 76, 238);background-color: rgb(76, 76, 238);">.</p>
+                <p class="bottom-bar" style="color:white;">SubTitle</p>
+            </div>
+            </div>
+            <div class="right">
+            <div class="box" id="box-3">
+                <p class="top-bar" style="font-size:20px;margin:-8px 0px;color:rgb(76, 76, 238);background-color: rgb(76, 76, 238);">.</p>
+                <p class="bottom-bar" style="color:white;">SubTitle</p>
+            </div>
+            <div class="box" id="box-4">
+                <p class="top-bar" style="font-size:20px;margin:-8px 0px;color:rgb(76, 76, 238);background-color: rgb(76, 76, 238);">.</p>
+                <p class="bottom-bar" style="color:white;">SubTitle</p>
+            </div>
+        </div>
+        </div>
+        <div class="text-container">
+            <div class="text">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore debitis at dolores, labore adipisci qui iste dolorem eius nemo omnis, provident ipsa non laborum numquam beatae sunt optio. Fuga, sunt?</p>
+            </div>
+        </div>
+
+        <div class="last-container">
+            <div class="box2">
+                <p class="top-bar" style="font-size:40px;margin:-8px 0px;color:rgb(76, 76, 238);background-color: rgb(76, 76, 238);">.</p>
+                <p class="bottom-bar" style="color:white;">SubTitle</p>
+            </div>
+            <div class="box2">
+                <p class="top-bar" style="font-size:40px;margin:-8px 0px;color:rgb(76, 76, 238);background-color: rgb(76, 76, 238);">.</p>
+                <p class="bottom-bar" style="color:white;">SubTitle</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div style="color:white">Copyright</div>
+            <div style="color:white">2021</div>
+        </div>
+    </div>
+</body>
+</html>
